@@ -1,4 +1,4 @@
-# Visualization of words per book and chapter in the bible (King James version).
+# Find where words are used in the bible
 A indexed version of the bible is included as SQLite database. You can rebuild the database by running the management commands (and add them to the Docker file)
 
 ### Requirements
