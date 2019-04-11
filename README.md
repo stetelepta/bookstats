@@ -1,6 +1,8 @@
 # Find where words are used in the bible
 A indexed version of the bible is included as SQLite database. You can rebuild the database by running the management commands (and add them to the Docker file)
 
+![the word love in the bible](https://raw.githubusercontent.com/stetelepta/bookstats/master/images/example.png)
+
 ### Requirements
 * Docker
 
