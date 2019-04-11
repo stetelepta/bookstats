@@ -1,0 +1,22 @@
+{% load staticfiles %}
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>{% block title %}Bible stats{% endblock %}</title>
+  {% block css %}
+  <link rel="stylesheet" href="{% static "biblestats/css/main.css" %}">
+  {% endblock %}
+</head>
+
+<body>
+{% block body %}{% endblock %}
+
+{% block footer_js %}
+    <script src="/static/biblestats/js/app/index.min.js"></script>
+{% endblock %}
+
+</body>
+</html>

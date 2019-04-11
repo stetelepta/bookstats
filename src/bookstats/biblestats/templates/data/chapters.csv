@@ -1,0 +1,2 @@
+BookLabel,BookNr,Chapter{% for chapter in chapters %}
+{{ chapter.book }},{{ chapter.book.order }}, {{ chapter.nr }}{% endfor %}

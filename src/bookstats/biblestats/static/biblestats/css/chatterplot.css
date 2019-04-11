@@ -1,0 +1,25 @@
+.axis path {
+  display: none; }
+
+.x.axis text {
+  font-size: 9px;
+  fill: #666; }
+
+.tooltip {
+  padding: 10px;
+  position: absolute;
+  width: 150px;
+  height: 70px;
+  background: white;
+  pointer-events: none;
+  border: 1px solid #ccc;
+  font-size: 18px; }
+
+.chapter {
+  fill: #ddd; }
+
+.form {
+  margin: 0 auto; }
+
+svg {
+  width: 100%; }

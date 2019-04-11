@@ -1,0 +1,2 @@
+Word,BookLabel,BookNr,Chapter,Count,Total{% for line in index %}
+{{ line.word }},{{ line.chapter.book }},{{ line.chapter.book.order }}, {{ line.chapter.nr }},{{ line.count }},{{ total }}{% endfor %}
